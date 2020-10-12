@@ -25,9 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if(item.getItemId() == R.id.id_about)
-            startActivity(new Intent(this, AboutActivity.class));
-        else if(item.getItemId() == R.id.id_logout)
+      if(item.getItemId() == R.id.id_logout)
             finish();
         return true;
     }
