@@ -1,0 +1,1 @@
+Aku sayang mas indra
